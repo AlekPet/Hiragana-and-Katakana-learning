@@ -1,5 +1,5 @@
 # Hiragana-and-Katakana-learning
-Learning alphabet Hiragana and Katakana 
-Изучаем алфавит Hiragana b Katakana
+Learning alphabet Hiragana and Katakana<br>
+Изучаем алфавит Hiragana b Katakana</br>
 
-by AlekPet 2017
+<b>by AlekPet 2017</b>
