@@ -17,7 +17,7 @@ GM_addStyle("\
 	.main_pole_style>p{text-align: center;}\
 	.main_pole_style #panel{text-align:center; }\
 	#panel input[type=\"number\"],#panel input[type=\"checkbox\"]{width: 30px;padding: 2px 2px;margin:3px 3px;}\
-  #panel > select{    width: 170px;    padding: 6px 5px;    margin: 3px 21px;}\
+        #panel > select{    width: 170px;    padding: 6px 5px;    margin: 3px 21px;}\
 	#panel input[type=\"button\"]{ display: inline-block;    position: relative;   vertical-align: middle;    min-height: 2.46153846em;    box-sizing: border-box;    font-weight: 400;    font-family: inherit;    line-height: 1;    text-align: center; border-radius: 2px;    border: 1px solid transparent;    cursor: pointer;   color: #FFF;  background-color: #0095ff;  border-color: #07c;    box-shadow: inset 0 1px 0 #66bfff;transition: all .1s ease-in;}\
 	#panel input[type=\"button\"]:hover{ color: rgba(255,255,255,0.9);    background-color: #07c;    border-color: #005999;    box-shadow: inset 0 1px 0 #3af;}\
 	#paper table{border:2px solid black;padding:18px 18px;text-align:center;display: table; border-collapse: separate;border-spacing: 2px;border-color: grey;}\
