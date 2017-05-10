@@ -43,7 +43,7 @@ var HiraganaAndKatakana  = {
 				upd_tim_s: "Обн.в.сек.",
 				otveti: "Ответы",
 				vis_otv: "Показать ответы?",
-        button_lrn: "Начать изучение..."
+				button_lrn: "Начать изучение..."
 			},
 			en : {
 				sel_all: "All",
@@ -52,7 +52,7 @@ var HiraganaAndKatakana  = {
 				upd_tim_s: "Update per sec.",
 				otveti: "Answer",
 				vis_otv: "Show answers?",
-        button_lrn: "Begin learn..."                
+				button_lrn: "Begin learn..."                
 			},
 		};
 
@@ -82,7 +82,7 @@ var HiraganaAndKatakana  = {
 
 			this.sel=document.createElement("select");
 			this.inp=document.createElement("input");
-      this.inp.type="number";
+			this.inp.type="number";
 			this.inp.value="5";
 			this.inp.size="3";
 
@@ -112,7 +112,7 @@ var HiraganaAndKatakana  = {
 			this.tielo.innerHTML=" | "+this.lang_sel[langu].upd_tim_s;
             
 			this.tieloi=document.createElement("input");
-            this.tieloi.type="number";
+			this.tieloi.type="number";
 			this.tieloi.value="2";
 			this.tieloi.size="3";            
 
