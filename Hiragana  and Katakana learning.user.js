@@ -7,6 +7,7 @@
 // @match        http*://*/*
 // @updateURL    https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
 // @downloadURL  https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
+// @icon          https://raw.githubusercontent.com/AlekPet/Hiragana-and-Katakana-learning/master/assets/images/icon.png
 // @run-at document-end
 // @grant GM_addStyle
 // @require https://code.jquery.com/jquery-3.1.0.min.js
@@ -20,7 +21,7 @@ GM_addStyle("\
 	.main_pole_style>p{text-align: center;}\
 	.main_pole_style #panel{text-align:center; }\
 	#panel input[type=\"number\"],#panel input[type=\"checkbox\"]{width: 30px;padding: 2px 2px;margin:3px 3px;}\
-        #panel > select{    width: 170px;    padding: 6px 5px;    margin: 3px 21px;}\
+    #panel > select{    width: 170px;    padding: 6px 5px;    margin: 3px 21px;}\
 	#panel input[type=\"button\"]{ display: inline-block;    position: relative;   vertical-align: middle;    min-height: 2.46153846em;    box-sizing: border-box;    font-weight: 400;    font-family: inherit;    line-height: 1;    text-align: center; border-radius: 2px;    border: 1px solid transparent;    cursor: pointer;   color: #FFF;  background-color: #0095ff;  border-color: #07c;    box-shadow: inset 0 1px 0 #66bfff;transition: all .1s ease-in;}\
 	#panel input[type=\"button\"]:hover{ color: rgba(255,255,255,0.9);    background-color: #07c;    border-color: #005999;    box-shadow: inset 0 1px 0 #3af;}\
 	#paper table{border:2px solid black;padding:18px 18px;text-align:center;display: table; border-collapse: separate;border-spacing: 2px;border-color: grey;}\
@@ -46,7 +47,7 @@ var HiraganaAndKatakana  = {
 				upd_tim_s: "Обн.в.сек.",
 				otveti: "Ответы",
 				vis_otv: "Показать ответы?",
-				button_lrn: "Начать изучение..."
+        button_lrn: "Начать изучение..."
 			},
 			en : {
 				sel_all: "All",
@@ -55,7 +56,7 @@ var HiraganaAndKatakana  = {
 				upd_tim_s: "Update per sec.",
 				otveti: "Answer",
 				vis_otv: "Show answers?",
-				button_lrn: "Begin learn..."                
+        button_lrn: "Begin learn..."                
 			},
 		};
 
@@ -85,7 +86,7 @@ var HiraganaAndKatakana  = {
 
 			this.sel=document.createElement("select");
 			this.inp=document.createElement("input");
-			this.inp.type="number";
+            this.inp.type="number";
 			this.inp.value="5";
 			this.inp.size="3";
 
@@ -115,7 +116,7 @@ var HiraganaAndKatakana  = {
 			this.tielo.innerHTML=" | "+this.lang_sel[langu].upd_tim_s;
             
 			this.tieloi=document.createElement("input");
-			this.tieloi.type="number";
+      this.tieloi.type="number";
 			this.tieloi.value="2";
 			this.tieloi.size="3";            
 
@@ -129,7 +130,7 @@ var HiraganaAndKatakana  = {
 			this.otvch.checked=true;
 
 			this.otvch.onclick = HiraganaAndKatakana.refresh;
-        }
+      }
 
 this.arbuk=this.bukvih.split(",");
 this.arot=this.otveti.split(",");
@@ -213,7 +214,7 @@ refresh: function (){
 		htmlparse+="</tr><tr class='pansimvotv'>";
 		var splot=me.otv.split(" \n");
 		for(i=0;i<me.kol;i++){
-			htmlparse+="<td>"+splot[i]+"</td>";
+		htmlparse+="<td>"+splot[i]+"</td>";
 		}
 	}
 
