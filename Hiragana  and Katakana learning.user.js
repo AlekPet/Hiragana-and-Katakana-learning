@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Hiragana  and Katakana learning
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/AlekPet/
 // @version      1.0
 // @description  Teach the alphabet...
 // @author       AlekPet
