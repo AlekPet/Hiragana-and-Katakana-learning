@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Teach the alphabet...
 // @author       AlekPet
+// @license     MIT;
 // @match        http*://*/*
 // @updateURL    https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
 // @downloadURL  https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
