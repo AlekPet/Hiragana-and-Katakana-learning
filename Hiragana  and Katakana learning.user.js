@@ -2,7 +2,7 @@
 // @name         Hiragana  and Katakana learning
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  try to take over the world!
+// @description  Teach the alphabet...
 // @author       AlekPet
 // @match        http*://*/*
 // @updateURL    https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
