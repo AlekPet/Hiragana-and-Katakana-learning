@@ -5,6 +5,9 @@
 // @description  try to take over the world!
 // @author       AlekPet
 // @match        http*://*/*
+// @updateURL    https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
+// @downloadURL  https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
+// @run-at document-end
 // @grant GM_addStyle
 // @require https://code.jquery.com/jquery-3.1.0.min.js
 // ==/UserScript==
