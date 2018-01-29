@@ -10,6 +10,7 @@
 // @downloadURL  https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
 // @icon          https://raw.githubusercontent.com/AlekPet/Hiragana-and-Katakana-learning/master/assets/images/icon.png
 // @run-at document-end
+// @noframes
 // @grant GM_addStyle
 // @require https://code.jquery.com/jquery-3.1.0.min.js
 // ==/UserScript==
