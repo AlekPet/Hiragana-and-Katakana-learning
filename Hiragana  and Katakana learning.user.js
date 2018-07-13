@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Hiragana  and Katakana learning
 // @namespace    https://github.com/AlekPet/
-// @version      1.0
+// @version      1.1
 // @description  Teach the alphabet...
 // @author       AlekPet
 // @license     MIT;
 // @match        http*://*/*
-// @updateURL    https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
-// @downloadURL  https://github.com/AlekPet/Hiragana-and-Katakana-learning/raw/master/Hiragana%20%20and%20Katakana%20learning.user.js
+// @updateURL    https://raw.githubusercontent.com/AlekPet/Hiragana-and-Katakana-learning/master/Hiragana%20%20and%20Katakana%20learning.user.js
+// @downloadURL  https://raw.githubusercontent.com/AlekPet/Hiragana-and-Katakana-learning/master/Hiragana%20%20and%20Katakana%20learning.user.js
 // @icon          https://raw.githubusercontent.com/AlekPet/Hiragana-and-Katakana-learning/master/assets/images/icon.png
 // @run-at document-end
 // @noframes
